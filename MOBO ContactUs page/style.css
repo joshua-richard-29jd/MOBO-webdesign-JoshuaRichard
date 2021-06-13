@@ -1,0 +1,141 @@
+/* ********************* common ********************** */
+
+*  {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+/* ********************* HEADER ********************** */
+#header {
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    padding: 0.5rem 1rem;
+ }
+ 
+#header .con-us {
+    padding: 0 11px;
+    margin: 4px 0px;
+    font-weight: 700;
+}
+
+ #header img {
+     width: 60px;
+ }
+ 
+ #header button {
+     font-family: 'Nunito', sans-serif;
+ }
+ 
+ #header a {
+    font-family: 'Nunito', sans-serif;
+     padding-right: 1.2rem;
+     padding-left: 1.2rem;
+     color: #999;
+     font-weight: 700;
+ }
+ 
+/* ********************* CONTACT INFO ********************** */
+
+ #contact-info {
+    background-image: linear-gradient(to right, #ff004a, #8e002f);
+    padding: 7.5rem 0;
+    padding-bottom: 1.5rem 
+ }
+
+ #contact-info input {
+    border: 1px solid #EAEDF2;
+ }
+
+ #send-message {
+     padding: 4px;
+     font-size: 16px;
+     font-weight: 700;
+ }
+
+ #contact-info .title {
+     color: #fff;
+     margin-bottom: 1.5rem;
+     font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+ }
+
+ #contact-info .get-touch p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+ }
+
+ #contact-info .location {
+     color: #fff;
+ }
+
+ #contact-info hr {
+     padding: 10px;
+     margin-bottom: 1.5rem
+ }
+
+ #contact-info .location h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+ }
+
+ #contact-info .location h2 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+ }
+
+ #contact-info .location p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+  
+ }
+
+ .personal-details .details {
+    background-color: #fff;
+    padding: 2.25rem;
+    border-radius: 5px;
+ } 
+
+ /* ********************* SOCIAL NETWORKS ********************** */
+ #footer {
+    background-color: #333333;
+    padding-bottom: 1.5rem;
+}
+
+#footer img {
+    height: 2.25rem;
+}
+
+#footer .social-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 25px 10px 0 10px;
+    
+}
+ 
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+#form small {
+    /* position: absolute; */
+    /* margin: 3px; */
+   display: none;
+    color: red;
+}

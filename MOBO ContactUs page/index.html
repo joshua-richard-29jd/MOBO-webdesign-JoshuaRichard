@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+   
+  
+  </head>
+<body>
+  <div id="header">
+    <div class="container ">
+        <div class="row">
+            <div class="col-6">
+                <img src="./images/logo.png" class=" logo-mobo">
+            </div>
+        <div class="col-6">
+            <div class="d-flex justify-content-end">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News&Blogs</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+
+          <button type="button" class="con-us btn btn-danger rounded-pill"">Contact Us</button>
+            </div>
+        </div>
+        </div>  
+    </div>
+</div>
+
+<!-- ********************* CONTACT INFO **********************  -->
+<div id="contact-info">
+  <div class="container">
+    <div class="row justify-content-around align-items-center">
+        <div class="col-5">
+            <div class="get-touch">
+            <h1  class="title">Get in touch.</h1>
+            <p> Please use our online form to get in touch with our team to discuss all your digital requirements.</p>               
+            <p>If you would like to email us, please use the email address below:</p>
+            <p>contact@mobo.co.uk</p> 
+        </div>
+        <hr style="border-bottom: 1px solid white;">
+        <div class="location">
+            <h1>Our Locations</h1>
+            <address class="location-1">
+                <h2>Cardiff - United Kingdom</h2>
+                <p>MOBO Media, Unit 2 Regents Court, Nettlefold <br> Road, Cardiff, United Kingdom, CF24 5JQ.</p>
+            </address>
+            <address class="location-2">
+                <h2>Chennai - India</h2>
+                <p>MOBO Media, 3rd Floor, Arunachalam Tower, Old <br> No 9, New No 31, South K.R. Koil Street, West <br> Mambalam, Chennai – 600033.</p>
+            </address>
+            <address class="location-2">
+                <h2>Tirukoilur - India</h2>
+               <p>MOBO Media, SM Building, No: 47, 2nd <br> Floor, Kazura Garden, Above Equitas Bank,<br> Tirukoilur - 605757.</p>
+            </address>
+        
+        </div>
+        </div>
+
+        <div class="personal-details col-5">
+          <div class="details">
+            <form id="form"  >
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Your Name</label>
+                  <input type="text" class="form-control" id="name"  placeholder="Enter Your Full Name" >
+                <small>errror</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="you@yourmail.com">
+                <small>error </small>
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Phone</label>
+                    <input type="number" class="form-control" id="ph-number" placeholder="080-0808-0808" onKeyPress="if(this.value.length==11) return false;" />
+                    <small>error</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Business Name</label>
+                    <input type="text" class="form-control" id="bname" placeholder="Enter Your Business Name">
+                <small>error</small>
+                  
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Website</label>
+                    <input type="text" class="form-control" id="websiteurl" placeholder="Place Your Website URL">
+                    <small>error</small>
+                
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Service Required</label>
+                  <select id="drop" class="form-control">
+                    <option>Select an option</option>
+                    <option>SEO SERVICE</option>
+                    <option>WEB DESIGN</option>
+                    <option>WEB DEVELOPMENT</option>
+                    <option>GRAPHIC DESIGN</option>
+                    <option>BRANDING SERVICES</option>
+                    <option>LOGO DESIGN</option>
+                    <option>SOCIAL MEDIA MARKETING</option>
+                    <option>others</option>
+                  </select>
+                <small>error</small>
+
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">How can we help?</label>
+                    <textarea class="form-control" id="messagebox" rows="3"></textarea>
+                <small>error</small>
+                  </div>
+                  <button id="send-message" class="btn btn-danger btn-lg btn-block rounded-pill" type="button" >Send Message</button>
+              
+                </form>
+              
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+<!-- ******************** FOOTER ******************** -->
+  <div id="footer">
+    <div class="socialnetwork d-flex justify-content-center">
+        <div class="social-net">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 0C8.74 0 8.333 0.015 7.053 0.072C5.775 0.132 4.905 0.333 4.14 0.63C3.351 0.936 2.681 1.347 2.014 2.014C1.347 2.681 0.935 3.35 0.63 4.14C0.333 4.905 0.131 5.775 0.072 7.053C0.012 8.333 0 8.74 0 12C0 15.26 0.015 15.667 0.072 16.947C0.132 18.224 0.333 19.095 0.63 19.86C0.936 20.648 1.347 21.319 2.014 21.986C2.681 22.652 3.35 23.065 4.14 23.37C4.906 23.666 5.776 23.869 7.053 23.928C8.333 23.988 8.74 24 12 24C15.26 24 15.667 23.985 16.947 23.928C18.224 23.868 19.095 23.666 19.86 23.37C20.648 23.064 21.319 22.652 21.986 21.986C22.652 21.319 23.065 20.651 23.37 19.86C23.666 19.095 23.869 18.224 23.928 16.947C23.988 15.667 24 15.26 24 12C24 8.74 23.985 8.333 23.928 7.053C23.868 5.776 23.666 4.904 23.37 4.14C23.064 3.351 22.652 2.681 21.986 2.014C21.319 1.347 20.651 0.935 19.86 0.63C19.095 0.333 18.224 0.131 16.947 0.072C15.667 0.012 15.26 0 12 0ZM12 2.16C15.203 2.16 15.585 2.176 16.85 2.231C18.02 2.286 18.655 2.48 19.077 2.646C19.639 2.863 20.037 3.123 20.459 3.542C20.878 3.962 21.138 4.361 21.355 4.923C21.519 5.345 21.715 5.98 21.768 7.15C21.825 8.416 21.838 8.796 21.838 12C21.838 15.204 21.823 15.585 21.764 16.85C21.703 18.02 21.508 18.655 21.343 19.077C21.119 19.639 20.864 20.037 20.444 20.459C20.025 20.878 19.62 21.138 19.064 21.355C18.644 21.519 17.999 21.715 16.829 21.768C15.555 21.825 15.18 21.838 11.97 21.838C8.759 21.838 8.384 21.823 7.111 21.764C5.94 21.703 5.295 21.508 4.875 21.343C4.306 21.119 3.915 20.864 3.496 20.444C3.075 20.025 2.806 19.62 2.596 19.064C2.431 18.644 2.237 17.999 2.176 16.829C2.131 15.569 2.115 15.18 2.115 11.985C2.115 8.789 2.131 8.399 2.176 7.124C2.237 5.954 2.431 5.31 2.596 4.89C2.806 4.32 3.075 3.93 3.496 3.509C3.915 3.09 4.306 2.82 4.875 2.611C5.295 2.445 5.926 2.25 7.096 2.19C8.371 2.145 8.746 2.13 11.955 2.13L12 2.16ZM12 5.838C8.595 5.838 5.838 8.598 5.838 12C5.838 15.405 8.598 18.162 12 18.162C15.405 18.162 18.162 15.402 18.162 12C18.162 8.595 15.402 5.838 12 5.838ZM12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16ZM19.846 5.595C19.846 6.39 19.2 7.035 18.406 7.035C17.611 7.035 16.966 6.389 16.966 5.595C16.966 4.801 17.612 4.156 18.406 4.156C19.199 4.155 19.846 4.801 19.846 5.595Z" fill="#fff"/>
+            </svg>
+        </div>
+        <div class="social-net">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.789 23.9943V13.0493H17.3269L17.8566 8.78383H13.789V6.06047C13.789 4.82555 14.1192 3.98389 15.8248 3.98389L18 3.98284V0.167893C17.6236 0.1161 16.3325 0 14.8304 0C11.6942 0 9.54712 1.98771 9.54712 5.63825V8.78395H6V13.0494H9.54701V23.9944L13.789 23.9943Z" fill="#fff"/>
+            </svg>
+        </div>
+        <div class="social-net">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0)">
+            <path d="M23.954 4.56897C23.069 4.95797 22.124 5.22297 21.129 5.34397C22.143 4.73297 22.923 3.76997 23.292 2.62097C22.341 3.17597 21.287 3.57997 20.165 3.80497C19.269 2.84597 17.992 2.24597 16.574 2.24597C13.857 2.24597 11.654 4.44897 11.654 7.16297C11.654 7.55297 11.699 7.92797 11.781 8.28697C7.691 8.09397 4.066 6.12997 1.64 3.16097C1.213 3.88297 0.974 4.72197 0.974 5.63597C0.974 7.34597 1.844 8.84897 3.162 9.73197C2.355 9.70597 1.596 9.48397 0.934 9.11597V9.17697C0.934 11.562 2.627 13.551 4.88 14.004C4.467 14.115 4.031 14.175 3.584 14.175C3.27 14.175 2.969 14.145 2.668 14.089C3.299 16.042 5.113 17.466 7.272 17.506C5.592 18.825 3.463 19.611 1.17 19.611C0.78 19.611 0.391 19.588 0 19.544C2.189 20.938 4.768 21.753 7.557 21.753C16.611 21.753 21.556 14.257 21.556 7.76697C21.556 7.55797 21.556 7.34697 21.541 7.13697C22.502 6.44797 23.341 5.57697 24.001 4.58897L23.954 4.56897Z" fill="#fff"/>
+            </g>
+            <defs>
+            <clipPath id="clip0">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+            
+        </div>
+        <div class="social-net">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.166V20.452H20.447ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.368C3.274 4.23 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.23 7.401 5.368C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z" fill="#fff"/>
+            </svg>
+            
+        </div>
+        <div class="social-net">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.495 6.20498C23.356 5.70674 23.0907 5.2528 22.725 4.88703C22.3592 4.52126 21.9052 4.25603 21.407 4.11698C19.537 3.61598 12.011 3.61598 12.011 3.61598C12.011 3.61598 4.50401 3.60598 2.61501 4.11698C2.11677 4.25603 1.66283 4.52126 1.29706 4.88703C0.931287 5.2528 0.666058 5.70674 0.527007 6.20498C0.172528 8.11949 -0.0022322 10.0629 0.00500725 12.01C-0.000863617 13.9497 0.173891 15.8857 0.527007 17.793C0.666058 18.2912 0.931287 18.7452 1.29706 19.1109C1.66283 19.4767 2.11677 19.7419 2.61501 19.881C4.48301 20.383 12.011 20.383 12.011 20.383C12.011 20.383 19.517 20.383 21.407 19.881C21.9052 19.7419 22.3592 19.4767 22.725 19.1109C23.0907 18.7452 23.356 18.2912 23.495 17.793C23.8407 15.885 24.0081 13.949 23.995 12.01C24.0095 10.0636 23.8421 8.12018 23.495 6.20498ZM9.60901 15.601V8.40798L15.873 12.01L9.60901 15.601Z" fill="#fff"/>
+            </svg>
+            
+        </div>
+        
+    </div>
+    <hr style="border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+      width: 80%;" >
+    <p class="text-center copyright">© 2021 MOBO Media | Privacy Policy | Terms of Service</p>
+</div>
+
+    <script defer src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

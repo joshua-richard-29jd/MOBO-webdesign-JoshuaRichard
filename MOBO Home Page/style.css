@@ -1,0 +1,277 @@
+/* ********************* common ********************** */
+
+*  {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* ********************* HEADER ********************** */
+#header {
+   position: fixed;
+   z-index: 1000;
+   background-color: white;
+   width: 100%;
+   padding: 0.5rem;
+}
+
+#header .con-us {
+    padding: 0 11px;
+    margin: 4px 0px;
+    font-weight: 700;
+}
+
+#header img {
+    width: 60px;
+}
+
+#header button {
+    font-family: 'Nunito', sans-serif;
+}
+
+#header a {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    color: #999;
+    font-weight: 700;
+}
+
+/* ********************* BANNER********************** */
+
+
+#banner h2 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+#banner span {
+    border-bottom: 20px solid red;
+    line-height: 0.4;
+    display: inline-block;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+#banner p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #555A64;
+    margin-bottom: 1.5rem;
+}
+
+#banner {
+    margin-bottom: 50px;
+}
+
+
+/* ********************* CAROUSEL ********************** */
+
+#welcomebanner {
+    padding: 7.5rem 0;
+    background-color: #333333;
+    color: #fff;
+}
+
+.welcomenote {
+    margin-bottom: 4.6875rem;
+}
+
+.welcomenote h2 {
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.welcomenote p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#carouselExampleControls img {
+    margin: auto;
+    height: 400px;
+}
+
+/* ********************* SEO ********************** */
+
+#seo {
+    padding: 7.5rem 0;
+}
+
+#seo .seo-list {
+    max-width: 70%;
+}
+
+#seo .seo-list h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2C3038    
+}
+
+#seo .seo-list img {
+    height: 2.25rem;
+    color: white;
+    padding-right: 10px;
+}
+
+#seo button {
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 70%;
+    padding: 18px;
+    display: flex;
+}
+
+#seo .seo-list .bb {
+    background-color: white;
+    color: red;
+    border-color: white;
+}
+
+#seo .seo-list p {
+    color: red;
+}
+
+#seo .phone {
+    margin-left: -31px;
+}
+
+#seo .mob-img img {
+    height: 10px;
+}
+
+#seo .img-con img {
+height: 40px;
+border-radius: 50%;
+}
+
+#seo .img-con {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 12px;
+}
+
+
+#seo .img-con .img-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+}
+
+#seo .img-con .dr-raif {
+    
+    background-color: #EAEDF2;
+}
+
+/* ********************* SERVICES ********************** */
+#services {
+    padding: 7.5rem 0;
+    background-color: #F7F9FC 
+}
+
+
+#services h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 24px;
+    text-align: center;
+}
+
+#services p {
+    font-size: 20px;
+}
+
+#services .s-item {
+    display: flex;
+    padding: .8rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    background-color: #fff;
+    
+} 
+
+#services .services-items {
+    display: flex;
+}
+
+#services .s-item img {
+    height: 2.25rem;
+    margin-right: 15px;
+} 
+
+
+/* ********************* TECH SKILLS ********************** */
+#tech-skills {
+    background-image: linear-gradient(to right, #ff004a, #8e002f);
+    padding: 7.5rem 0;
+}
+
+#tech-skills h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 24px;
+    text-align: center;
+    color: #fff;
+}
+
+#tech-skills p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#tech-skills .skill-item img {
+    height: 2.25rem;
+    margin-right: 12px;
+}
+
+#tech-skills .skills {
+    display: flex;
+   
+}
+
+#tech-skills .skill-item {
+    display: flex;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* ********************* SOCIAL NETWORKS ********************** */
+#footer {
+    background-color: #333333;
+    padding-bottom: 1.5rem;
+}
+
+#footer img {
+    height: 2.25rem;
+}
+
+#footer .social-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 25px 10px 0 10px;
+    
+}
+ 
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0;
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
