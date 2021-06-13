@@ -8,6 +8,10 @@ const messageBox = document.getElementById("messagebox")
 const sendMessage = document.getElementById("send-message")
 const form = document.getElementById("form")
 
+function alphaOnly(event) {
+    var key = event.keyCode;
+    return ((key >= 65 && key <= 90) || key == 8);
+  };
 
 function validateInput(){
     if(userName.value.trim() === "") {
